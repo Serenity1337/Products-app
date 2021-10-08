@@ -33,7 +33,9 @@ export const EditProductModal = (props) => {
           (product) => product.name === values.name
         )
         if (foundIndex !== -1) {
-          currentProductsCopy[foundIndex].quantity = values.quantity
+          currentProductsCopy[foundIndex].quantity =
+            Number(currentProductsCopy[foundIndex].quantity) +
+            Number(values.quantity)
           currentProductsCopy.splice(props.productIndex, 1)
         } else {
           newProduct.quantity = values.quantity
