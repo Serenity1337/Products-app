@@ -1,0 +1,28 @@
+.formContainer {
+  background-color: #111;
+  opacity: 0.9;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  // z-index: 100000;
+  .addNodeModalForm {
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    opacity: 1;
+    padding-left: 200px;
+    input {
+      display: block;
+      margin: 10px 0px 10px 0px;
+      padding: 10px;
+      border-radius: 5px;
+      width: 94%;
+      opacity: 1;
+    }
+  }
+}

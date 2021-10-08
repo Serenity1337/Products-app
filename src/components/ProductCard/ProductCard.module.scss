@@ -1,0 +1,35 @@
+.container {
+  width: 20%;
+  .product {
+    box-sizing: border-box;
+    border: 1px solid #111;
+    margin: 10px;
+    display: inline-block;
+    padding: 15px 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: auto;
+    .categoryHeading {
+      .subCategory {
+        display: block;
+        font-size: 16px;
+      }
+    }
+    .buttonsContainer {
+      width: 100%;
+    }
+    .productHeading {
+      text-align: center;
+      font-size: 24px;
+    }
+    .productPrice,
+    .productQuantity {
+      font-size: 18px;
+      text-align: center;
+    }
+  }
+  .profileDescendants {
+    display: flex;
+  }
+}
